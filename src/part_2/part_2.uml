@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>part_2</OriginalElement>
+  <nodes>
+    <node x="467.0" y="161.0">part_2.Coach</node>
+    <node x="311.0" y="478.0">part_2.Team</node>
+    <node x="0.0" y="738.0">part_2.TestClass</node>
+    <node x="34.5" y="296.0">part_2.Referee.LeveReferee</node>
+    <node x="263.5" y="0.0">part_2.Person</node>
+    <node x="0.0" y="478.0">part_2.Players</node>
+    <node x="235.0" y="161.0">part_2.Player</node>
+    <node x="540.0" y="478.0">part_2.Contract</node>
+    <node x="0.0" y="174.0">part_2.Referee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="part_2.Player" target="part_2.Person">
+      <point x="0.0" y="-42.5" />
+      <point x="0.0" y="55.5" />
+    </edge>
+    <edge source="part_2.Referee" target="part_2.Person">
+      <point x="0.0" y="-29.5" />
+      <point x="107.5" y="136.0" />
+      <point x="289.3333333333333" y="136.0" />
+      <point x="-51.666666666666686" y="55.5" />
+    </edge>
+    <edge source="part_2.Referee.LeveReferee" target="part_2.Referee">
+      <point x="0.0" y="-68.5" />
+      <point x="0.0" y="29.5" />
+    </edge>
+    <edge source="part_2.Coach" target="part_2.Person">
+      <point x="0.0" y="-42.5" />
+      <point x="573.0" y="136.0" />
+      <point x="392.66666666666663" y="136.0" />
+      <point x="51.66666666666663" y="55.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="498.5" y="359.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
